@@ -1,0 +1,50 @@
+:root{
+	--light: #fff;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	min-height: 100vh;
+	background: #f1f2f3;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	transition: 1s ease;
+	font-family: sans-serif;
+}
+
+.btn{
+	background: #222;
+	color: var(--light);
+	padding: 14px 30px;
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+	font-family: sans-serif;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+	box-shadow: 0 4px 8px rgba(0,0,0,.4);
+	cursor: pointer;
+	transition: .2s ease;
+}
+
+.btn:hover{
+	background: #333;
+}
+
+.show{
+	margin-top: 20px;
+	font-size: 3em;
+	font-weight: 200;
+	letter-spacing: 1px;
+}
+
+.btn:active{
+	transform: scale(0.97);
+}
